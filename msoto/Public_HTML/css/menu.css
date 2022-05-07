@@ -1,0 +1,51 @@
+body { background:url(../images/bg.png) repeat; font-family:Arial, Helvetica, sans-serif; color:#7f7f7f;}
+input { font-family:Arial, Helvetica, sans-serif; color:#595959; font-size:18px;}
+a { outline:none; text-decoration:none;}
+
+.main { width:500px;height:250px; position:relative;  position:fixed; top:50%; left:45%; margin-top:-125px; margin-left:-200px;}
+.box { width:500px; align:center; overflow:hidden; padding:-3em -3em auto; margin: -6em auto; background:#fff; border:1px solid #d5d5d5; 
+border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; box-shadow: 5 5 20px rgba(3,44,52,.22); 
+-moz-box-shadow: 5 5 20px rgba(3,44,52,.22); -webkit-box-shadow: 5 5 20px rgba(3,44,52,.22);}
+
+.mainRegPre { width:800px; height:500px; position:relative; position:fixed; top:50%; left:50%; margin-top:-300px; margin-left:-450px; padding:20px;}
+.boxRegPre  { width:800px; align:center; overflow:hidden; padding:20px;; margin:20px; background:#fff; border:1px solid #d5d5d5;
+border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; box-shadow: 5 5 20px rgba(3,44,52,.22);
+-moz-box-shadow: 5 5 20px rgba(3,44,52,.22); -webkit-box-shadow: 5 5 20px rgba(3,44,52,.22);}
+
+.mainEdtPre { width:800px; height:500px; position:relative; position:fixed; top:50%; left:50%; margin-top:-300px; margin-left:450px; padding:20px;}
+.boxEdtPre  { width:800px; align:center; overflow:hidden; padding:20px;; margin:20px; background:#fff; border:1px solid #d5d5d5;
+border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; box-shadow: 5 5 20px rgba(3,44,52,.22);
+-moz-box-shadow: 5 5 20px rgba(3,44,52,.22); -webkit-box-shadow: 5 5 20px rgba(3,44,52,.22);}
+
+.mainRep { width:800px; height:500px; position:relative; position:fixed; top:50%; left:50%; margin-top:-300px; margin-left:-250px; padding:20px;}
+.boxRep  { width:800px; align:center; overflow:hidden; padding:20px;; margin:20px; background:#fff; border:1px solid #d5d5d5;
+border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; box-shadow: 5 5 20px rgba(3,44,52,.22);
+-moz-box-shadow: 5 5 20px rgba(3,44,52,.22); -webkit-box-shadow: 5 5 20px rgba(3,44,52,.22);}
+
+.box h3 { color:#7f7f7f; font-size:17px; line-height:20px; margin:0; padding:0; font-weight:normal; outline:none;}
+
+.form { margin:0; padding:0;}
+.form fieldset { border:none; padding: 10px 0 0; margin:0;}
+.form .row { margin-bottom:6px; position:relative; line-height:33px;}
+
+.form .row a.forgot { position:absolute; top:2px; right:10px; color:#909090; font-size:12px; text-shadow:1px 1px 1px #fff;}
+.form .row a.forgot:hover { color:#6e6e6e;}
+.form .row input[type="submit"] { cursor:pointer; color:#1c464e; text-shadow:1px 1px 0 #aaeaf7; border:1px solid #289cb8; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; background:#67bbcf; background: -webkit-gradient(linear, bottom, top, from(#67bbcf), to(#82def1)); background: -moz-linear-gradient(bottom,  #67bbcf,  #82def1); font-size:16px; padding:5px 20px; font-weight:bold; float:right;}
+
+.form .row input[type="button"] { cursor:pointer; color:#1c464e; text-shadow:1px 1px 0 #aaeaf7; border:1px solid #289cb8; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; background:#67bbcf; background: -webkit-gradient(linear, bottom, top, from(#67bbcf), to(#82def1)); background: -moz-linear-gradient(bottom,  #67bbcf,  #82def1); font-size:16px; padding:5px 20px; font-weight:bold; float:right;}
+
+.form .row input[type="submit"]:hover { background:#51b1c7; background: -webkit-gradient(linear, bottom, top, from(#4297ab), to(#60cce3)); background: -moz-linear-gradient(bottom, #4297ab, #60cce3);}
+
+.copy { float:right; color:#9eabae; font-size:12px; margin:10px 16px 0 0; text-shadow:1px 1px 1px #fff;}
+
+a:link, a:visited {
+text-decoration:none;
+cursor:pointer;
+color:#333333;
+}
+
+a:hover {
+text-decoration:none;
+cursor:pointer;
+color:#333333;
+}
